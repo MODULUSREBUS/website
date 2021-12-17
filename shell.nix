@@ -6,5 +6,8 @@ mkShell {
   buildInputs = [
     git
     hub
+
+    nodejs
+    yarn
   ];
 }
