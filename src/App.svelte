@@ -1,9 +1,11 @@
 <script>
   import Sun from './Sun.svelte'
+  import Logo from './Logo.svelte'
 </script>
 
 <main>
   <Sun />
+  <Logo />
 </main>
 
 <style>
