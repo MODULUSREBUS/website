@@ -1,8 +1,11 @@
 <script>
+  let y;
 </script>
 
+<svelte:window bind:scrollY={y}/>
+
 <div class="container">
-  <div class="sun"></div>
+  <div class="sun" style="transform: translate(0,{-y * 0.6}px)"></div>
 </div>
 
 <style>
