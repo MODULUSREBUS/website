@@ -6,6 +6,7 @@ mkShell {
   buildInputs = [
     git
     hub
+    gnumake
 
     nodejs
     yarn
