@@ -4,21 +4,21 @@
   import Manifesto from './Manifesto.svelte'
 </script>
 
-<main>
+<div class="container">
   <Sun />
   <Logo />
-</main>
+</div>
 <Manifesto />
 
 <style>
-main {
+.container {
   text-align: center;
   max-width: 240px;
   margin: 0 auto;
   height: 100%;
 }
 @media (min-width: 640px) {
-  main {
+  .container {
     max-width: none;
   }
 }
